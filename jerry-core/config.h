@@ -52,7 +52,7 @@
  * Size of heap
  */
 #ifndef CONFIG_MEM_HEAP_AREA_SIZE
-# define CONFIG_MEM_HEAP_AREA_SIZE (256 * 1024)
+# define CONFIG_MEM_HEAP_AREA_SIZE (8 * 1024)
 #endif /* !CONFIG_MEM_HEAP_AREA_SIZE */
 
 /**

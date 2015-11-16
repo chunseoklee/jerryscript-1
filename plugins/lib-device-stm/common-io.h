@@ -26,7 +26,7 @@ void analog_write (uint32_t, uint32_t);
 
 void wait_ms (uint32_t);
 
-#ifdef __TARGET_MCU
+//#ifdef __TARGET_MCU
 void fake_exit (void);
 
 void initialize_timer (void);
@@ -38,7 +38,6 @@ void wait_1ms (void);
 
 void set_sys_tick_counter (uint32_t);
 uint32_t get_sys_tick_counter (void);
-#endif
+//#endif
 
 #endif /* COMMON_IO_H */
-
